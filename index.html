@@ -10,31 +10,36 @@
   <body>
     <div class="container">
       <h1>Which Course is Best for You?</h1>
-      <h3>Answer the following questions to help you pick which course you would like the most by simply typing "yes" or "no".</h3>
-      <form id="add">
-        <div class="form-group">
-        <label for="ruby">Would you like to build interactive we applications?</label>
-          <input id="ruby" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="php">Are you intrested in backend languages at a fast paced agency?</label>
-            <input id="php" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="java">Would you like to work for an enterprise-level company?</label>
-            <input id="java" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="css">Are you intrested in the design aspect of websites?</label>
-          <input id="css" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="c">Are you intrested in working for a larger company on business software?</label>
-          <input id="c" class="form-control" type="text">
-        </div>
-      <button class="btn btn-danger" type="submit">See your results!</button>
-      </form>
+      <h3>Answer the following questions to help you pick which course you would like the most by selecting either "yes" or "no".</h3>
+        <form id="add">
+          <p><label for="ruby">Would you like to build interactive we applications?</label>
+            <select id="ruby">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select></p>
+          <p><label for="php">Are you intrested in backend languages at a fast paced agency?</label>
+            <select id="php">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select></p>
+          <p><label for="java">Would you like to work for an enterprise-level company?</label>
+            <select id="java">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select></p>
+          <p><label for="css">Are you intrested in the design aspect of websites?</label>
+            <select id="css">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select></p>
+          <p><label for="c">Are you intrested in working for a larger company on business software?</label>
+            <select id="c">
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select></p>
+          <p><button class="btn btn-danger" type="submit">See your results!</button></p>
+        </form>
       <div id="results">
-        <p>It look like you would be most intrested in learning <span class="ruby"></span><span class="php"></span><span class="java"></span><span class="css"></span><span class="c"></span></p>
+        <p>It looks like you would be most intrested in learning <span class="ruby"></span><span class="php"></span><span class="java"></span><span class="css"></span><span class="c"></span></p>
       </div>
     </div>
