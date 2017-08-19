@@ -27,7 +27,7 @@ $(document).ready(function() {
 
     if (c1 === "no" && css1 ==="no" && java1 === "no" && ruby1 === "no" && php1 === "no") {
       $("#noResults").show();
-    
+
     }
     else $("#results").show();
 
