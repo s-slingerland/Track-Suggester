@@ -1,3 +1,19 @@
 #results {
   display: none;
 }
+
+#noResults {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+body {
+  background-color: #ffe4ec;
+}
